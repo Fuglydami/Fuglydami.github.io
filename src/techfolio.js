@@ -17,7 +17,7 @@ import emoji from 'react-easy-emoji'
 ==========================*/
 
 const app = {
-  title: 'Damilare Portfolio',
+  title: 'Damilare Oyedeji',
   // Note : consider leaving null if you dont have any head icon
   description:
     'An impecabble Front-End Developer that has a good eye for designs.',
@@ -41,10 +41,10 @@ const socialNetworks = {
 ==========================*/
 
 const bannerSection = {
-  username: 'Damilare Oyedeji',
+  username: '< D.O />',
   bannerHeading: 'Damilare.',
   bannerTagLine: emoji(
-    'A Front-End Developer,😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs.'
+    'A Front-End Developer😀, Who loves to play with different stacks and love to give breath to Ui/Ux designs.'
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder
   //and add the name along with extention e.g xyz.png , abc.svg
@@ -64,7 +64,6 @@ const bannerSection = {
 const aboutSection = {
   admin: '@Damilare',
   firstCommand: ' node start about.js',
-  secondCommand: ' executing about.js',
   about: `Damilare is a creative, self-motivated and passionate Front-End Developer, passionate about writing clean and organized code, and keen on personal and professional development.
 
     I'm very ethusiatic about Back-End technologies and AI also.
@@ -139,55 +138,8 @@ const openSourceSection = {
 
   githubUserName: 'Fuglydami',
   //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
+  numberOfRepos: 4,
 }
-
-/*=====================
-    7. Projects Section
-    Desc: This section hlep you configure your major projects.
-==========================*/
-
-const projectsSection = {
-  projects: [
-    {
-      projectName: 'Celebrity Name Detection App',
-      projectBio:
-        'This App allows you to input the url of any Celebrity of your choice and instantly get the name of the famous person using some AI technology. It also take note of your entry count',
-
-      projectUrl: 'https://celebrity-name-detection-app.herokuapp.com/',
-      stackList: ['React', 'Node', 'Express', 'PostgresDB', 'API', 'HTML/CSS'],
-    },
-    {
-      projectName: 'Tour Guide',
-      projectBio:
-        'A simple Web app that displays beautiful cities across Nigeria with nice synopsis and fancy features',
-
-      projectUrl: 'https://react-tour-app.vercel.app/',
-      stackList: ['React', 'HTML/CSS', 'css'],
-    },
-    {
-      projectName: 'BUBUHAIRS',
-      projectBio: 'A Hair product website built for a client',
-
-      projectUrl: 'http://bubuhairs.vercel.app/',
-      stackList: ['HTML/CSS', 'Sass', 'JavaScript'],
-    },
-
-    {
-      projectName: 'Personal PortFolio',
-      projectBio:
-        'My personal portfolio that showcase my works, Tech Stack and my profile',
-
-      projectUrl: '/',
-      stackList: ['React', 'HTML/CSS', 'NPM packages'],
-    },
-  ],
-}
-
-/*=====================
-    8. Experience Section
-    Desc: This section help you configure your experience.
-==========================*/
 
 /*=====================
     9. Contact Section
@@ -210,6 +162,5 @@ export {
   aboutSection,
   skillsSection,
   openSourceSection,
-  projectsSection,
   contactSection,
 }

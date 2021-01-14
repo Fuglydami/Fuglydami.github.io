@@ -79,7 +79,7 @@
 
 /* @media all and (min-width: 600px) {
   .screen {
-    height: 440px;
+    height: 580px;
     width: 360px;
   }
   .screen:before {
@@ -94,7 +94,7 @@
     padding: 26px 2px 40px;
   }
   .screen {
-    height: 75vh;
+    height: 60vh;
     width: 340px;
   }
   .screen:before {
@@ -120,7 +120,7 @@
 
 @media all and (max-width: 360px) {
   .screen {
-    height: 89vh;
+    height: 77vh;
     width: 300px;
   }
 }
@@ -141,7 +141,7 @@
     border-radius: 10px;
   }
   .screen {
-    height: 600px;
+    height: 500px;
     width: 1000px;
     border-radius: 0 0 10px 10px;
   }

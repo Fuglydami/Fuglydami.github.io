@@ -48,12 +48,12 @@ function About() {
                             {aboutSection.firstCommand}
                           </p>
                           <Typist.Delay ms={1000} />
-                          <p className="line">
+                          {/* <p className="line">
                             {" "}
                             {aboutSection.admin}:
                             <span style={{ color: "#7f5af0" }}>~</span>$
                             {aboutSection.secondCommand}
-                          </p>
+                          </p> */}
                           <br />
                           <p className="line">{aboutSection.about}</p>
                           <span>

@@ -15,7 +15,7 @@ import { isMobile } from 'react-device-detect'
 function Github() {
   const { scrollChange } = useContext(ScrollContext)
   const { githubUserName, numberOfRepos } = openSourceSection
-  const initialValue = numberOfRepos > 6 ? 6 : numberOfRepos
+  const initialValue = numberOfRepos > 5 ? 5 : numberOfRepos
   const [repos, setRepos] = useState(initialValue)
   const { loading, error, data } = useQuery(FETCH_REPOS, {
     variables: { login: githubUserName, first: repos },
