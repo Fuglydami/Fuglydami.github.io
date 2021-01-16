@@ -39,7 +39,7 @@
 
 .screen {
   position: relative;
-  height: 430px;
+  height: auto;
   width: 740px;
   border-radius: 0 0 10px 10px;
   background: #242629;
@@ -94,8 +94,7 @@
     padding: 26px 2px 40px;
   }
   .screen {
-    max-height: 60vh;
-    overflow: auto;
+    height: 60vh;
     width: 340px;
   }
   .screen:before {
