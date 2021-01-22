@@ -29,16 +29,10 @@ const app = {
 ==========================*/
 
 const socialNetworks = {
-  //Note : if you dont need or have any social network just add null value
   github: 'https://github.com/Fuglydami',
-  linkden: 'https://www.linkedin.com/in/damilare-oyedeji-229a16110/',
+  linkden: 'https://www.linkedin.com/in/DamilareOyedeji/',
   twitter: 'https://twitter.com/blackkolanut',
 }
-
-/*=====================
-    3. Banner Section
-    Desc: techfolio logo, greetings, summary and avatar,
-==========================*/
 
 const bannerSection = {
   username: '< D.O />',
@@ -46,20 +40,11 @@ const bannerSection = {
   bannerTagLine: emoji(
     'A Front-End Developer😀, Who loves to play with different stacks and love to give breath to Ui/Ux designs.'
   ),
-  //Note:Simply add you avatar image in src/assets/imgs folder
-  //and add the name along with extention e.g xyz.png , abc.svg
-  //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: 'avatar.jpeg.jpg',
-  resumeLink:
-    'https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing',
-}
 
-/*=====================
-    4. About Section
-    Desc: It's all about you!. this section is designed using the command 
-    line concept so it asked you to add the admin of the command line 
-    and 2 basic commands (i recommend you to use default commands).
-==========================*/
+  bannerAvatar: 'avatar.jpg',
+  resumeLink:
+    'https://drive.google.com/file/d/1DAeQEHdNq5mLU0Vp-PLYgPyAPEjOZ_h0/view?usp=sharing',
+}
 
 const aboutSection = {
   admin: '@Damilare',
@@ -73,11 +58,6 @@ const aboutSection = {
     Cheers, you now know about me`,
 }
 
-/*=====================
-    5. Skils Section
-    Desc: This section hep you set your skills 
-==========================*/
-
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
@@ -87,9 +67,6 @@ const skillsSection = {
   ],
 
   // Recommended : don't add more than 12 skills.
-  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
-  //        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
-
   skillsSet: [
     {
       fontAwesomeClassname: 'fab fa-html5',
@@ -127,33 +104,19 @@ const skillsSection = {
   ],
 }
 
-/*=====================
-    6. Open Source Section
-    Desc: This section hlep you configure your github repos section 
-==========================*/
-
 const openSourceSection = {
-  //Note :  don't edit the githubToken
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
   githubUserName: 'Fuglydami',
-  //Note :  no of open source projects you want to show.
   numberOfRepos: 4,
 }
-
-/*=====================
-    9. Contact Section
-    Desc: This section help you configure your contact.
-==========================*/
 
 const contactSection = {
   contactTagline: `Have a question or wanna make something together?
 Start by saying hi.`,
-  // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ['07031203859', 'damoye81@gmail.com'],
-}
 
-// Bingo :))
+  contactList: ['+2347031203859', 'damoye81@gmail.com'],
+}
 
 export {
   app,
