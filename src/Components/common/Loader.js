@@ -1,7 +1,10 @@
 import React from 'react'
 import './common.css'
 
+
+
 function Loader() {
+  
   return (
     <div className="loaderContainer">
       <div className="loader">
