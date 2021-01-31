@@ -8,6 +8,7 @@ import { skillsSection } from '../../techfolio'
 import { ScrollContext } from '../../Context/scroll'
 import { isMobile } from 'react-device-detect'
 import Heading from '../common/Heading'
+import tech from '../../assets/imgs/tech.png'
 function Skills() {
   const { scrollChange } = useContext(ScrollContext)
   const skillsSet = skillsSection.skillsSet.map((skill, i) => {
@@ -50,7 +51,7 @@ function Skills() {
                 <Flip left>
                   {' '}
                   <img
-                    src="https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    src={tech}
                     alt="skills"
                     style={{
                       maxWidth: '100%',

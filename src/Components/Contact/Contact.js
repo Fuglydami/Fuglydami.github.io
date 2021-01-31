@@ -8,6 +8,7 @@ import { contactSection, socialNetworks } from '../../techfolio'
 import { ScrollContext } from '../../Context/scroll'
 import { isMobile } from 'react-device-detect'
 import Heading from '../common/Heading'
+import contact from "../../assets/imgs/contact.png"
 function Contact() {
   const { scrollChange } = useContext(ScrollContext)
   const { github, linkden, twitter } = socialNetworks
@@ -45,8 +46,8 @@ function Contact() {
                 <Flip left>
                   {' '}
                   <img
-                    src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    alt="skills"
+                    src={contact}
+                    alt="contact"
                     className="portfolio_skill_section_img"
                     style={{
                       maxWidth: '100%',
