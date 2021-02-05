@@ -1,14 +1,14 @@
-import React from "react";
-import { Col, Row } from "react-flexbox-grid";
-import Fade from "react-reveal/Fade";
-import { Link as ScrollTo } from "react-scroll";
-import { isMobile } from "react-device-detect";
+import React from 'react'
+import { Col, Row } from 'react-flexbox-grid'
+import Fade from 'react-reveal/Fade'
+import { Link as ScrollTo } from 'react-scroll'
+import { isMobile } from 'react-device-detect'
 function BannerContent({ bannerSection }) {
   return (
     <Col lg={5} xs={12}>
       <div className="banner-content">
         <h1>
-          {" "}
+          {' '}
           <Fade bottom big cascade>
             {bannerSection.bannerHeading}
           </Fade>
@@ -58,7 +58,7 @@ function BannerContent({ bannerSection }) {
         </Col>
       </Row>
     </Col>
-  );
+  )
 }
 
-export default BannerContent;
+export default BannerContent

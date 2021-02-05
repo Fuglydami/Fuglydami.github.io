@@ -12,7 +12,6 @@ import SideNav from './Components/Layout/Navbar/SideNav'
 import { ScrollProvider } from './Context/scroll'
 import { isMobile } from 'react-device-detect'
 import Particles from 'react-particles-js'
-import AnimatedCursor from 'react-animated-cursor'
 
 const particles = {
   particles: {
@@ -52,14 +51,6 @@ const particles = {
 function App() {
   return (
     <ScrollProvider>
-      <AnimatedCursor
-        innerSize={25}
-        outerSize={13}
-        color="134, 136, 138"
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={5}
-      />
       <div className="wrapper">
         <Particles className="particles" params={particles} />
         <Header />
