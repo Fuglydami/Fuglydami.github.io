@@ -1,85 +1,122 @@
-/*=====================
-    TechFolio loading common Component Css
-==========================*/
-.loaderContainer {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #16161a;
-}
+/* Full Page loader */
 
-.loader {
-  width: 16em;
-  height: 8em;
+/* .loadingImg {
   position: relative;
-  overflow: hidden;
+  left: 50%;
+  margin: 5px 0 5px -8px;
+} */
+.loading {
+  display: grid;
+  place-content: center;
 }
-
-.loader::before,
-.loader::after {
-  content: '';
-  position: absolute;
+.loading,
+.fade {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
   bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+  padding-top: 10%;
+  font-family: 'Roboto_Medium', sans-serif;
 }
 
-.loader::before {
-  width: inherit;
-  height: 0.2em;
-  background-color: hsla(0, 0%, 85%);
+.fade {
+  left: 0px;
+  text-align: left;
+  color: #333;
+}
+.loading-clock {
+  margin: 50px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.loading-clock span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: #50e3c2;
+  display: inline-block;
+  z-index: 999;
+  position: relative;
+  left: 0px;
+  top: 10px;
 }
 
-.loader::after {
-  box-sizing: border-box;
-  width: 50%;
-  height: inherit;
-  border: 0.2em solid hsla(0, 0%, 85%);
-  border-radius: 50%;
-  left: 25%;
-}
-
-.loader span {
+.loading-clock:before,
+.loading-clock:after {
   position: absolute;
-  width: 5%;
-  height: 10%;
-  background-color: white;
-  border-radius: 50%;
-  bottom: 0.2em;
-  left: -5%;
-  animation: 2s linear infinite;
-  transform-origin: 50% -3em;
-  animation-name: run, rotating;
+  display: block;
+  content: '';
+  width: 4px;
+  left: 19px; /* half width of clock - half width of hand */
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
-.loader span:nth-child(2) {
-  animation-delay: 0.075s;
-}
-.loader span:nth-child(3) {
-  animation-delay: 0.15s;
-}
-
-@keyframes run {
+@-webkit-keyframes rotate {
   0% {
-    left: -5%;
-  }
-  10%,
-  60% {
-    left: calc((100% - 5%) / 2);
-  }
-  70%,
-  100% {
-    left: 100%;
-  }
-}
-
-@keyframes rotating {
-  0%,
-  10% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  60%,
+
   100% {
-    transform: rotate(-1turn);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.loading-clock:before {
+  top: 10px;
+  height: 60px; /* half the width/height of the clock */
+  -webkit-transform-origin: 1px 9px;
+  -moz-transform-origin: 1px 9px;
+  -ms-transform-origin: 1px 9px;
+  -o-transform-origin: 1px 9px;
+  transform-origin: 1px 9px;
+
+  -webkit-animation: rotate 1s infinite linear;
+  -o-animation: rotate 1s infinite linear;
+  animation: rotate 1s infinite linear;
+}
+
+.loading-clock:after {
+  top: 11px;
+  height: 40px; /* top + height for little hand must = top + height for big hand */
+
+  -webkit-transform-origin: 1px 9px;
+  -moz-transform-origin: 1px 9px;
+  -ms-transform-origin: 1px 9px;
+  -o-transform-origin: 1px 9px;
+  transform-origin: 1px 9px;
+
+  transform-origin: 1px 9px;
+
+  -webkit-animation: rotate 12s infinite linear;
+  -o-animation: rotate 12s infinite linear;
+  animation: rotate 12s infinite linear;
+  animation: rotate 12s infinite linear; /* time should be big-hand time * 12 */
 }

@@ -2,7 +2,8 @@ import React, { Suspense } from 'react'
 import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from '@apollo/react-hooks'
 import { openSourceSection } from './techfolio'
-import Loader from './Components/common/Loader.js'
+import Loading from './Components/common/Loading.js'
+import { useEffect } from 'react'
 const App = React.lazy(() => import('./App'))
 const key = openSourceSection.githubToken
   ? openSourceSection.githubToken.replace(/^"(.*)"$/, '$1')
@@ -21,7 +22,7 @@ const client = new ApolloClient({
 
 export default (
   <ApolloProvider client={client}>
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<Loading />}>
       <App />
     </Suspense>
   </ApolloProvider>

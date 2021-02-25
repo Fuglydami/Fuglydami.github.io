@@ -20,7 +20,7 @@ const app = {
   title: 'Damilare Oyedeji',
   // Note : consider leaving null if you dont have any head icon
   description:
-    'An impecabble Front-End Developer that has a good eye for designs.',
+    'Damilare Oyedeji is a Software Developer who loves to play with different tech stacks and convert Ui/Ux designs to web pages.',
 }
 
 /*=====================
@@ -43,17 +43,17 @@ const bannerSection = {
 
   bannerAvatar: 'avatar.jpg',
   resumeLink:
-    'https://drive.google.com/file/d/1SMLfD856hl8aHAlRL5S22Yp7OeKSsAwb/view?usp=sharing',
+    'https://drive.google.com/file/d/16WWEda154rD2XpxUVD-X6dN-DKSOG1dg/view?usp=sharing',
 }
 
 const aboutSection = {
   admin: '@Damilare',
-  firstCommand: ' node start about.js',
+  firstCommand: ' node about.js',
   about: `Damilare is a creative, self-motivated and passionate Front-End Developer, passionate about writing clean and organized code, and keen on personal and professional development.
 
     I'm very ethusiatic about Back-End technologies and AI also.
     
-    While improving my ReactJS library skill and currently getting myself familiar with more back-end technologies, I'm open to and currently looking for opportunities where i can contribute my skills and collaborate with team on ambitious projects.
+    While improving my ReactJS library skill, I am also currently getting myself familiar with more back-end technologies, I'm open to and currently looking for opportunities where i can contribute my skills and collaborate with team on ambitious projects.
     
     Cheers, you now know about me`,
 }

@@ -9,7 +9,7 @@ function Footer() {
         <Row center="xs" middle="xs">
           <Col xs={4}></Col>
           <Col xs={8} className="techfolio_copyright">
-            copyright ©2021 Crafted by Damilare.
+            copyright ©{new Date().getFullYear()} Crafted by Damilare.
           </Col>
         </Row>
       </div>
