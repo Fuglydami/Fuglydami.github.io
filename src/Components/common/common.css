@@ -19,7 +19,6 @@
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   color: #fff;
-  padding-top: 10%;
   font-family: 'Roboto_Medium', sans-serif;
 }
 
@@ -38,7 +37,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50px;
-  background: #50e3c2;
+  background: #6f3eff;
   display: inline-block;
   z-index: 999;
   position: relative;
