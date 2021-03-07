@@ -71,6 +71,19 @@ function Navbar() {
             </li>
             <li>
               <ScrollTo
+                to="experiences"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                onClick={() => {
+                  toggleOpen(!open)
+                }}
+              >
+                <p>Experiences</p>
+              </ScrollTo>
+            </li>
+            <li>
+              <ScrollTo
                 to="contact"
                 spy={true}
                 smooth={true}

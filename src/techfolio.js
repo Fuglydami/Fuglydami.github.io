@@ -104,6 +104,29 @@ const skillsSection = {
   ],
 }
 
+const experienceSection = {
+  experiences: [
+    {
+      experienceTitle: 'Technical Support Engineer',
+      experienceDesc:
+        'Install and configure computer hardware operating systems and applications, monitor and maintain computer systems and networks. Talked to staff or clients through a series of actions, either face-to-face or over the phone to help set up systems or resolve issues.',
+      experienceDuration: '06/18-12/19',
+      experienceTags: [
+        '-Fiberdel System LTD | ',
+        'Full time | ',
+        '1year and half',
+      ],
+    },
+    {
+      experienceTitle: 'Frontend Developer',
+      experienceDesc:
+        'Translated designs and wireframes into high-quality code and wrote application interface code via javaScript following React.js workflows.',
+      experienceDuration: '01/20-02/21',
+      experienceTags: ['-Netpacks LTD | ', 'Full time | ', '1year'],
+    },
+  ],
+}
+
 const openSourceSection = {
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
@@ -125,5 +148,6 @@ export {
   aboutSection,
   skillsSection,
   openSourceSection,
+  experienceSection,
   contactSection,
 }
