@@ -345,6 +345,7 @@ section {
 }
 
 .nav__counter {
+  cursor: pointer;
   font-size: 22px;
   transition: all 0.15s ease-out;
 }

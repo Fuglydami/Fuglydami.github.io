@@ -49,11 +49,9 @@ const bannerSection = {
 const aboutSection = {
   admin: '@Damilare',
   firstCommand: ' node about.js',
-  about: `Damilare is a creative, self-motivated and passionate Front-End Developer, passionate about writing clean and organized code, and keen on personal and professional development.
+  about: `Damilare is a talented, self-motivated and enthusiatic Front-End Developer who is passionate about writing clean and structured code. I am also committed to both personal and professional growth learning from any situation in which i find myself. Backend and AI technology are stacks i'm very interested in learning. I am currently getting acquainted with more backend technologies while strengthening my ReactJs library skills.
 
-    I'm very ethusiatic about Back-End technologies and AI also.
-    
-    While improving my ReactJS library skill, I am also currently getting myself familiar with more back-end technologies, I'm open to and currently looking for opportunities where i can contribute my skills and collaborate with team on ambitious projects.
+  Research, where i can apply my skills and work with enthusiastic team members, is what i want. As long as i collaborate with people who build on my interest in the field of technology, I can overcome every hurdle
     
     Cheers, you now know about me`,
 }
