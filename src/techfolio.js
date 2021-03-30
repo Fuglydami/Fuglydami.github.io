@@ -59,9 +59,9 @@ const aboutSection = {
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    'Excitable towards giving breath to different mockup PSDs and web designs using Html / Css, ReactJs and bootstrap.',
+    'Excitable towards giving breath to different mockup PSDs and web designs using Html5 / CSS3, Styled-Components, ReactJs and tailwindCSS.',
     'Love to Build Scalable web and native application using ReactJS with the several stacks, packages, and services.',
-    'Also Passionate towards other stuff like Back-End development (Node, expressJs and postgres)',
+    'Also Passionate towards other stuff like Back-End development (Node, expressJs and MongoDB)',
   ],
 
   // Recommended : don't add more than 12 skills.
@@ -108,7 +108,7 @@ const experienceSection = {
       experienceTitle: 'Technical Support Engineer',
       experienceDesc:
         'Install and configure computer hardware operating systems and applications, monitor and maintain computer systems and networks. Talked to staff or clients through a series of actions, either face-to-face or over the phone to help set up systems or resolve issues.',
-      experienceDuration: '06/18-12/19',
+      experienceDuration: '06/18 - 12/19',
       experienceTags: [
         '-Fiberdel System LTD | ',
         'Full time | ',
@@ -119,8 +119,19 @@ const experienceSection = {
       experienceTitle: 'Frontend Developer',
       experienceDesc:
         'Translated designs and wireframes into high-quality code and wrote application interface code via javaScript following React.js workflows.',
-      experienceDuration: '01/20-02/21',
+      experienceDuration: '01/20 - 02/21',
       experienceTags: ['-Netpacks LTD | ', 'Full time | ', '1year'],
+    },
+    {
+      experienceTitle: 'Frontend Engineer',
+      experienceDesc: `My role is to write and style the front-end components that meet the requirements of our mock-ups and fulfill our user stories. I also monitor and process pull requests for production deployments. 
+Technologies used: ReactJs, JavaScript, ES6, TailwindCSS, CSS3, HTML5, Styled-Components`,
+      experienceDuration: '03/22 - present',
+      experienceTags: [
+        '-Digiscript|Tech Solutions | ',
+        'Internship | ',
+        'present',
+      ],
     },
   ],
 }
