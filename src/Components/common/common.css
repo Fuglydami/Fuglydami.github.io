@@ -8,6 +8,7 @@
 .loading {
   display: grid;
   place-content: center;
+  background-color: #16161a;
 }
 .loading,
 .fade {
@@ -16,7 +17,6 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
   text-align: center;
   color: #fff;
   font-family: 'Roboto_Medium', sans-serif;
@@ -25,7 +25,6 @@
 .fade {
   left: 0px;
   text-align: left;
-  color: #333;
 }
 .loading-clock {
   margin: 50px auto;
