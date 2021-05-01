@@ -10,7 +10,9 @@ export default function AppHelmet({ app }) {
       <link
         rel="icon"
         type="image/png"
-        href={require(`../../assets/imgs/${app.icon ? app.icon : 'icon.png'}`)}
+        href={require(`../../assets/imgs/${
+          app.icon ? app.icon : 'avatar.jpg'
+        }`)}
         sizes="500x500"
       />
     </Helmet>

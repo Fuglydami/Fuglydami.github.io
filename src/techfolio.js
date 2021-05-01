@@ -17,10 +17,11 @@ import emoji from 'react-easy-emoji'
 ==========================*/
 
 const app = {
-  title: 'Damilare Oyedeji',
+  title:
+    'Damilare Oyedeji is a talented, self-motivated and enthusiatic Frontend Developer who is passionate about writing clean and structured code.',
   // Note : consider leaving null if you dont have any head icon
   description:
-    'Damilare Oyedeji is a Software Developer who loves to play with different tech stacks and convert Ui/Ux designs to web pages.',
+    'Damilare Oyedeji is a talented, self-motivated and enthusiatic Frontend Developer who is passionate about writing clean and structured code. He is also committed to both personal and professional growth learning from an situation in which he find himself',
 }
 
 /*=====================
@@ -140,7 +141,7 @@ const openSourceSection = {
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
   githubUserName: 'Fuglydami',
-  numberOfRepos: 4,
+  numberOfRepos: 5,
 }
 
 const contactSection = {
