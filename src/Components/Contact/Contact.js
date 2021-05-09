@@ -8,7 +8,7 @@ import { contactSection, socialNetworks } from '../../techfolio'
 import { ScrollContext } from '../../Context/scroll'
 import { isMobile } from 'react-device-detect'
 import Heading from '../common/Heading'
-import contact from "../../assets/imgs/contact.png"
+import contact from '../../assets/imgs/contact.png'
 function Contact() {
   const { scrollChange } = useContext(ScrollContext)
   const { github, linkden, twitter } = socialNetworks
