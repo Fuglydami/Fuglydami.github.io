@@ -17,8 +17,7 @@ import emoji from 'react-easy-emoji'
 ==========================*/
 
 const app = {
-  title:
-    'Damilare Oyedeji is a talented, self-motivated and enthusiatic Frontend Developer who is passionate about writing clean and structured code.',
+  title: 'Damilare Oyedeji - Software Developer',
   // Note : consider leaving null if you dont have any head icon
   description:
     'Damilare Oyedeji is a talented, self-motivated and enthusiatic Frontend Developer who is passionate about writing clean and structured code. He is also committed to both personal and professional growth learning from an situation in which he find himself',
