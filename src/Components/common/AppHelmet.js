@@ -12,7 +12,6 @@ export default function AppHelmet({ app }) {
       <meta property="og:url" content="https://fuglydami.github.io/" />
       <meta name="twitter:card" content="summary_large_image" />
       <title>{app.title}</title>
-      <link rel="canonical" href="http://fuglydami.github.io" />
       <link
         rel="icon"
         type="image/png"
