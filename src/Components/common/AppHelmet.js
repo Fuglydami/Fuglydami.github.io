@@ -21,7 +21,6 @@ export default function AppHelmet({ app }) {
         }`)}
         sizes="500x500"
       />
-      <link rel="canonical" href="https://fuglydami.github.io/" />
     </Helmet>
   )
 }
