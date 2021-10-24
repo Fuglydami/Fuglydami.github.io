@@ -107,14 +107,18 @@ const experienceSection = {
     {
       experienceTitle: "Software Developer",
       experienceDesc: ``,
+
       experienceDuration: "07/21 - present",
+
       experienceTags: ["-Firstbank Nigeria | ", "Full time | ", "present"],
     },
     {
       experienceTitle: "Frontend Engineer",
       experienceDesc: `My role is to write and style the front-end components that meet the requirements of our mock-ups and fulfill our user stories. I also monitor and process pull requests for production deployments. 
       Technologies used: ReactJs, JavaScript, ES6, TailwindCSS, CSS3, HTML5, Styled-Components`,
+
       experienceDuration: "03/21 - 07/21",
+
       experienceTags: [
         "-Digiscript|Tech Solutions | ",
         "Internship | ",
