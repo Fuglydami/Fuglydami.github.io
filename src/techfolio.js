@@ -43,7 +43,7 @@ const bannerSection = {
 
   bannerAvatar: "avatar.jpg",
   resumeLink:
-    "https://drive.google.com/file/d/1fvW1k0RtOVDJO4f29ZDSVZFqbmPYwEYI/view?usp=sharing",
+    "https://drive.google.com/file/d/1QG0kBjln0DpdudTpe91oUvtAd-s7VKPp/view?usp=sharing",
 };
 
 const aboutSection = {
