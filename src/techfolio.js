@@ -106,7 +106,8 @@ const experienceSection = {
   experiences: [
     {
       experienceTitle: "Software Developer",
-      experienceDesc: ``,
+      experienceDesc: `Built an Admin dashboard for the subsidiaries of First Bank of Nigeria to provide support for it mobile app.
+      Portal was entirely built with Reactjs. Implemented Json web Token for the authentication, Used the AES.js package to encrypt the request payload being pasted to the endpoint..`,
 
       experienceDuration: "07/21 - present",
 

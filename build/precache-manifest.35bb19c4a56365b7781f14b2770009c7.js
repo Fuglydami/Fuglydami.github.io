@@ -1,10 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-<<<<<<< HEAD:build/precache-manifest.e22e748dfc23d74947b07781eac86948.js
-    "revision": "9dc2a0d35600692deae20ad339f111c2",
-=======
-    "revision": "d40114d2346361247785c75be6097887",
->>>>>>> 534d111bcee646ff93c88a5929f422a0926f33d6:build/precache-manifest.8cfbd4164f883b2807520fa690d86835.js
+    "revision": "cbeeac39bed2ba1973607b2633a66f32",
     "url": "/index.html"
   },
   {
@@ -12,15 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.ffdfee16.chunk.css"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.e22e748dfc23d74947b07781eac86948.js
-    "revision": "44c5c7ebc8302866b071",
-=======
     "revision": "9b2be81f70b61621ae17",
->>>>>>> 534d111bcee646ff93c88a5929f422a0926f33d6:build/precache-manifest.8cfbd4164f883b2807520fa690d86835.js
     "url": "/static/css/4.80c7de34.chunk.css"
   },
   {
-    "revision": "90b8b6e5f732756fe7bc",
+    "revision": "9e5d14117f1cb548211a",
     "url": "/static/css/main.53df593e.chunk.css"
   },
   {
@@ -40,26 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.07a04f5e.chunk.js.LICENSE.txt"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.e22e748dfc23d74947b07781eac86948.js
-    "revision": "44c5c7ebc8302866b071",
-    "url": "/static/js/4.c2394057.chunk.js"
-=======
     "revision": "9b2be81f70b61621ae17",
     "url": "/static/js/4.40c7d0eb.chunk.js"
->>>>>>> 534d111bcee646ff93c88a5929f422a0926f33d6:build/precache-manifest.8cfbd4164f883b2807520fa690d86835.js
   },
   {
-    "revision": "90b8b6e5f732756fe7bc",
-    "url": "/static/js/main.3c0f17b0.chunk.js"
+    "revision": "9e5d14117f1cb548211a",
+    "url": "/static/js/main.0e7f2e08.chunk.js"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.e22e748dfc23d74947b07781eac86948.js
-    "revision": "74bd9e14e03cd91a437f",
-    "url": "/static/js/runtime-main.1c64084e.js"
-=======
     "revision": "baf493c890820d12141f",
     "url": "/static/js/runtime-main.004f078b.js"
->>>>>>> 534d111bcee646ff93c88a5929f422a0926f33d6:build/precache-manifest.8cfbd4164f883b2807520fa690d86835.js
   },
   {
     "revision": "7562def174e5db8c1fa9fe6ea20244b7",
