@@ -1,5 +1,8 @@
 import emoji from "react-easy-emoji";
-
+import comfySloth from "./assets/imgs/comfy-sloth.png";
+import centralAdmin from "./assets/imgs/central-admin.png";
+import githubSearch from "./assets/imgs/github-search.png";
+import chatApplication from "./assets/imgs/chat-application.png";
 /* 1. Main App */
 /* 2. Social Networks */
 /* 3. Banner Section  */
@@ -154,6 +157,62 @@ const openSourceSection = {
   numberOfRepos: 5,
 };
 
+const projectsSection = {
+  projects: [
+    {
+      projectName: "Central Admin Dashboard",
+      projectBio:
+        "Admin dashboard for the subsidiaries of First Bank of Nigeria (Guinea, Gambia, Sierra Leone, Dr Congo) to provide support for it mobile apps",
+
+      projectUrl: "https://subcentralportal.azurewebsites.net/",
+      projectImage: centralAdmin,
+
+      stackList: [
+        "Reactjs",
+        "Json Web Token",
+        "Aesjs",
+        "Styled-Components",
+        "Framer Motion",
+      ],
+    },
+    {
+      projectName: "comfy-sloth Ecommerce Website",
+      projectBio:
+        "A react ecommerce website with stripe payment and authentication/authorization features",
+
+      projectUrl: "https://comfy-sloth-ecommerce-website.netlify.app/",
+      projectImage: comfySloth,
+      stackList: ["React", "Auth0", "Stripe-api", "Netlify Function"],
+    },
+    {
+      projectName: "Github Users Search",
+      projectBio:
+        "A react web-app that consumes GitHub API to request for GitHub user's data. it included error page, authorization/authentication and charts",
+
+      projectUrl: "https://get-github-profiles.netlify.app/login",
+      projectImage: githubSearch,
+
+      stackList: [
+        "React",
+        "Github Api",
+        "Styled-components",
+        "auth0",
+        "fusion-charts",
+      ],
+    },
+
+    {
+      projectName: "Chat Application",
+      projectBio: "A real time chat application using chat engine api.",
+
+      projectUrl: "https://chat-dami.netlify.app/",
+      projectImage: chatApplication,
+
+      stackList: ["ReactJs", "Chat-Engine", "Context-api"],
+    },
+  ],
+};
+
 const contactSection = {
   contactTagline: `Have a question or wanna make something together?
 Start by saying hi.`,
@@ -166,6 +225,7 @@ export {
   socialNetworks,
   bannerSection,
   aboutSection,
+  projectsSection,
   skillsSection,
   openSourceSection,
   experienceSection,

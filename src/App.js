@@ -1,18 +1,19 @@
-import React from 'react'
-import './app.css'
-import { Row, Col } from 'react-flexbox-grid'
-import About from './Components/About/About'
-import Skills from './Components/Skill/Skills'
-import Github from './Components/Github/Github'
-import Header from './Components/Layout/Header'
-import Banner from './Components/Layout/Banner/Banner'
-import Experience from './Components/Experience/Experience'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Layout/Footer'
-import SideNav from './Components/Layout/Navbar/SideNav'
-import { ScrollProvider } from './Context/scroll'
-import { isMobile } from 'react-device-detect'
-import Particles from 'react-particles-js'
+import React from "react";
+import "./app.css";
+import { Row, Col } from "react-flexbox-grid";
+import About from "./Components/About/About";
+import Skills from "./Components/Skill/Skills";
+import Github from "./Components/Github/Github";
+import Header from "./Components/Layout/Header";
+import Banner from "./Components/Layout/Banner/Banner";
+import Projects from "./Components/Projects/Projects";
+import Experience from "./Components/Experience/Experience";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Layout/Footer";
+import SideNav from "./Components/Layout/Navbar/SideNav";
+import { ScrollProvider } from "./Context/scroll";
+import { isMobile } from "react-device-detect";
+import Particles from "react-particles-js";
 
 const particles = {
   particles: {
@@ -24,7 +25,7 @@ const particles = {
       },
     },
     color: {
-      value: '#7f5af0',
+      value: "#7f5af0",
     },
     opacity: {
       value: 0.5,
@@ -47,7 +48,7 @@ const particles = {
       speed: 0.2,
     },
   },
-}
+};
 
 function App() {
   return (
@@ -65,7 +66,8 @@ function App() {
             <Banner />
             <About />
             <Skills />
-            <Github />
+            {/* <Github /> */}
+            <Projects />
             <Experience />
             <Contact />
           </Col>
@@ -73,7 +75,7 @@ function App() {
         <Footer />
       </div>
     </ScrollProvider>
-  )
+  );
 }
 
-export default App
+export default App;
