@@ -114,7 +114,7 @@ const experienceSection = {
 
       experienceDuration: "07/21 - present",
 
-      experienceTags: ["-Firstbank Nigeria | ", "Full time | ", "present"],
+      experienceTags: ["Firstbank Nigeria", "Full time", "present"],
     },
     {
       experienceTitle: "Frontend Engineer",
@@ -123,29 +123,21 @@ const experienceSection = {
 
       experienceDuration: "03/21 - 07/21",
 
-      experienceTags: [
-        "-Digiscript|Tech Solutions | ",
-        "Internship | ",
-        "4 months",
-      ],
+      experienceTags: ["Digiscript Tech Solutions", "Internship", "4 months"],
     },
     {
       experienceTitle: "Frontend Developer",
       experienceDesc:
         "Translated designs and wireframes into high-quality code and wrote application interface code via javaScript following React.js workflows.",
       experienceDuration: "01/20 - 02/21",
-      experienceTags: ["-Netpacks LTD | ", "Full time | ", "1year"],
+      experienceTags: ["Netpacks LTD", "Full time", "1year"],
     },
     {
       experienceTitle: "Technical Support Engineer",
       experienceDesc:
         "Install and configure computer hardware operating systems and applications, monitor and maintain computer systems and networks. Talked to staff or clients through a series of actions, either face-to-face or over the phone to help set up systems or resolve issues.",
       experienceDuration: "06/18 - 12/19",
-      experienceTags: [
-        "-Fiberdel System LTD | ",
-        "Full time | ",
-        "1year and half",
-      ],
+      experienceTags: ["Fiberdel System LTD", "Full time", "1year and half"],
     },
   ],
 };
