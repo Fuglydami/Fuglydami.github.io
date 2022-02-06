@@ -1,5 +1,5 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from "react";
+import { Helmet } from "react-helmet";
 export default function AppHelmet({ app }) {
   return (
     <Helmet>
@@ -7,7 +7,7 @@ export default function AppHelmet({ app }) {
       <meta name="description" content={app.description} />
       <meta property="og:title" content="Damilare Oyedeji" />
       <meta property="og:description" content={app.title} />
-      <meta property="og:image" content="../../assets/imgs/avatar.jpg" />
+      <meta property="og:image" content="../../assets/imgs/avatar.jpeg" />
       <meta property="og:image:alt" content="Damilare Oyedeji" />
       <meta property="og:url" content="https://fuglydami.github.io/" />
       <meta name="twitter:card" content="summary_large_image" />
@@ -16,10 +16,10 @@ export default function AppHelmet({ app }) {
         rel="icon"
         type="image/png"
         href={require(`../../assets/imgs/${
-          app.icon ? app.icon : 'avatar.jpg'
+          app.icon ? app.icon : "avatar.jpeg"
         }`)}
         sizes="500x500"
       />
     </Helmet>
-  )
+  );
 }
