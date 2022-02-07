@@ -44,7 +44,7 @@ const bannerSection = {
     "A Front-End Developer😀, Who loves to play with different stacks and love to give breath to Ui/Ux designs."
   ),
 
-  bannerAvatar: "avatar.jpeg",
+  bannerAvatar: "avatar.jpg",
   resumeLink:
     "https://drive.google.com/file/d/1QG0kBjln0DpdudTpe91oUvtAd-s7VKPp/view?usp=sharing",
 };
